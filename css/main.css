@@ -1,0 +1,625 @@
+* {
+    background-image: url(/img/bg-hero.jpg);
+}
+
+.cabe {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+.logo_god {
+    position: absolute;
+    width: 193px;
+    height: 50px;
+    left: 45%;
+    top: 15px;
+}
+
+.sony {
+    position: absolute;
+    left: 7.78%;
+    right: 90.06%;
+    top: 35%;
+    bottom: 35%;
+    background: transparent;
+}
+
+.dis {
+    position: absolute;
+    left: 75%;
+    top: 35%;
+    width: 101px;
+    height: 15px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: transparent;
+}
+
+.ps4 {
+    position: absolute;
+    left: 83%;
+    top: 35%;
+    width: 27px;
+    height: 15px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border: solid 1px;
+    background: transparent;
+}
+
+.ps5 {
+    position: absolute;
+    left: 86%;
+    top: 35%;
+    width: 27px;
+    height: 15px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    border: solid 1px;
+    background: transparent;
+}
+
+.nyan {
+    position: absolute;
+    left: 10%;
+    top: 21%;
+    width: 6px;
+    height: 6px;
+    background: #3265EA;
+    transform: rotate(-45deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.lanca {
+    position: absolute;
+    top: 20%;
+    left: 11%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10pt;
+    line-height: 20px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: transparent;
+}
+
+.main h1 {
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120pt;
+    line-height: 97.5%;
+    color: #FFFFFF;
+    font-stretch: 110;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background: transparent;
+}
+
+.sub {
+    position: absolute;
+    top: 67%;
+    left: 5%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background: transparent;
+}
+
+.preco {
+    position: absolute;
+    left: 5%;
+    top: 76%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 36px;
+    gap: 10px;
+    width: 155px;
+    height: 35px;
+    background: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.preco p {
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18pt;
+    color: #000000;
+    background: transparent;
+}
+
+.pre {
+    position: absolute;
+    left: 18%;
+    top: 76%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 18px 36px;
+    gap: 10px;
+    width: 250px;
+    height: 35px;
+    background: #3265EA;
+}
+
+.pre p {
+    position: absolute;
+    left: 12%;
+    top: 30%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18pt;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+.tra {
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12pt;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+.gif {
+    position: absolute;
+    width: 405px;
+    height: 232px;
+    left: 68%;
+    top: 55%;
+}
+
+.gif:hover {
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.old {
+    position: absolute;
+    left: 68%;
+    top: 89%;
+}
+
+.idade {
+    position: absolute;
+    left: 71%;
+    top: 90%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13pt;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+.ui {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    left: 0px;
+    top: 100%;
+    background: #090A0A;
+}
+
+ul {
+    list-style: none;
+}
+
+.off img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 7%;
+    top: 110%;
+    background: transparent;
+}
+
+.off p {
+    position: absolute;
+    left: 3%;
+    top: 117%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 160%;
+    color: #BDC2CB;
+    background: transparent;
+}
+
+.jogador img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 20%;
+    top: 110%;
+    background: transparent;
+}
+
+.jogador p {
+    position: absolute;
+    left: 19%;
+    top: 117%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 160%;
+    color: #BDC2CB;
+    background: transparent;
+}
+
+.remote img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 33%;
+    top: 110%;
+    background: transparent;
+}
+
+.remote p {
+    position: absolute;
+    left: 28%;
+    top: 117%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 160%;
+    color: #BDC2CB;
+    background: transparent;
+}
+
+.gatilho img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    top: 110%;
+    background: transparent;
+}
+
+.gatilho p {
+    position: absolute;
+    left: 45%;
+    top: 117%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 160%;
+    color: #BDC2CB;
+    background: transparent;
+}
+
+.vibra img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 66%;
+    top: 110%;
+    background: transparent;
+}
+
+.vibra p {
+    position: absolute;
+    left: 60%;
+    top: 117%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 160%;
+    color: #BDC2CB;
+    background: transparent;
+}
+
+.ajuda img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 86%;
+    top: 110%;
+    background: transparent;
+}
+
+.ajuda p {
+    position: absolute;
+    left: 80%;
+    top: 117%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14pt;
+    line-height: 160%;
+    color: #BDC2CB;
+    background: transparent;
+}
+
+.story {
+    position: absolute;
+    left: 0%;
+    top: 125%;
+    height: 100vh;
+    width: 100%;
+}
+
+.duo {
+    position: absolute;
+    left: 50%;
+    top: 130%;
+    height: 700px;
+    width: 700px;
+    background: transparent;
+}
+
+.o {
+    position: absolute;
+    left: 5%;
+    top: 135%;
+    width: 6px;
+    height: 6px;
+    background: #3265EA;
+    transform: rotate(-45deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.mente {
+    position: absolute;
+    left: 6%;
+    top: 134%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+.main2 h1 {
+    position: absolute;
+    left: 5%;
+    top: 137%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48pt;
+    line-height: 130%;
+    color: #FFFFFF;
+    font-stretch: 110;
+    background: transparent;
+}
+
+.main2 h2 {
+    position: absolute;
+    left: 5%;
+    top: 170%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #BDC2CB;
+    background: transparent;
+}
+
+.monica {
+    position: absolute;
+    left: 5%;
+    top: 205%;
+    height: 60px;
+    width: 140px;
+    background: transparent;
+}
+
+.main2 h3 {
+    position: absolute;
+    left: 15%;
+    top: 205%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+.preto {
+    position: absolute;
+    top: 225%;
+    height: 250%;
+    width: 100%;
+    background: #000000;
+}
+
+.bg {
+    position: absolute;
+    top: 230%;
+    background: transparent;
+}
+
+.axel {
+    position: absolute;
+    top: 240%;
+    left: 55%;
+    background: transparent;
+}
+
+.god {
+    position: absolute;
+    top: 265%;
+    left: 78%;
+    background: transparent;
+}
+
+.paradinha {
+    position: absolute;
+    top: 240%;
+    left: 5%;
+    width: 6px;
+    height: 6px;
+    background: #3265EA;
+    transform: rotate(-45deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.perso {
+    position: absolute;
+    top: 239.5%;
+    left: 6%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+.final h1 {
+    position: absolute;
+    top: 245%;
+    left: 5%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48pt;
+    line-height: 130%;
+    color: #FFFFFF;
+    font-stretch: 110;
+    background: transparent;
+}
+
+.final h2 {
+    position: absolute;
+    top: 280%;
+    left: 5%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #BDC2CB;
+    background: transparent;
+}
+
+.lc {
+    position: absolute;
+    top: 275%;
+    left: 80.8%;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background: transparent;
+}
+
+.kratos {
+    position: absolute;
+    top: 300%;
+    left: 5%;
+    height: 600px;
+    width: 470px;
+}
+
+.atreus {
+    position: absolute;
+    top: 300%;
+    left: 36%;
+    height: 600px;
+    width: 450px;
+}
+
+.mimir {
+    position: absolute;
+    top: 300%;
+    left: 67%;
+    height: 600px;
+    width: 450px;
+}
+
+.freya {
+    position: absolute;
+    top: 380%;
+    left: 5%;
+    height: 600px;
+    width: 450px;
+}
+
+.tyr {
+    position: absolute;
+    top: 380%;
+    left: 36%;
+    height: 600px;
+    width: 450px;
+}
+
+.thor {
+    position: absolute;
+    top: 380%;
+    left: 67%;
+    height: 600px;
+    width: 450px;
+}
+
+.personagens img:hover {
+    transition: 0.7s;
+    transform: scale(0.9);
+}
